@@ -4,11 +4,28 @@ public class Main {
 
 //        INHERITANCE
 
-        Animal animal = new Animal("Animal", 1, 1, 5, 5);
-        Dog dog = new Dog("Yorkie",8,20,2,4,1,20,"Long silky");
-        Fish fish = new Fish("dolphin",1,1,10,32,6,2,7);
+        Rectangle rectangle = new Rectangle(5, 10);
+        System.out.println("rectangle.width= " + rectangle.getWidth());
+        System.out.println("rectangle.length= " + rectangle.getLength());
+        System.out.println("rectangle.area= " + rectangle.getArea());
+        Cuboid cuboid = new Cuboid(5,10,5);
+        System.out.println("cuboid.width= " + cuboid.getWidth());
+        System.out.println("cuboid.length= " + cuboid.getLength());
+        System.out.println("cuboid.area= " + cuboid.getArea());
+        System.out.println("cuboid.height= " + cuboid.getHeight());
+        System.out.println("cuboid.volume= " + cuboid.getVolume());
 
-        fish.move(15);
+//        Escape escape1 = new Escape(48);
+//        escape1.steer(45);
+//        escape1.accelerate(20);
+//        escape1.accelerate(10);
+//        escape1.accelerate(-22);
+
+//        Animal animal = new Animal("Animal", 1, 1, 5, 5);
+//        Dog dog = new Dog("Yorkie",8,20,2,4,1,20,"Long silky");
+//        Fish fish = new Fish("dolphin",1,1,10,32,6,2,7);
+//
+//        fish.move(15);
 
 //        dog.walk();
 
